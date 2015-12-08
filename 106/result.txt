@@ -1,0 +1,4 @@
+コマンド: gcc mystrcat.s main.c
+実行結果:
+	foobar
+	foobar

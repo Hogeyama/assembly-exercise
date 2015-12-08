@@ -1,0 +1,8 @@
+コマンド: gcc mystrcmp.s main.c
+実行結果:
+	strcmp("aa", "aa") = 0
+	strcmp("a", "aa") = -97
+	strcmp("aa", "a") = 97
+	strcmp("ab", "aa") = 1
+	strcmp("aa", "ab") = -1
+	strcmp("", "x") = -120
