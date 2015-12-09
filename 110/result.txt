@@ -1,0 +1,4 @@
+コマンド: gcc main.c mystrlen.s mystrcat2.s
+実行結果:
+	foobar
+	foobar
