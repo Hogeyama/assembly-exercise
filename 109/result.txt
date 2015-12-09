@@ -1,0 +1,8 @@
+コマンド: gcc main.c mystrlen.s mystrcmp2.s
+実行結果:
+	mystrcmp2("aa", "aa") = 0
+	mystrcmp2("a", "aa") = -1
+	mystrcmp2("aa", "a") = 1
+	mystrcmp2("ab", "aa") = -1
+	mystrcmp2("aa", "ab") = 1
+	mystrcmp2("", "x") = -1
