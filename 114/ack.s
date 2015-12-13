@@ -32,4 +32,3 @@ ack: # %r3=m, %r4=n
 	subi %r3, %r3, 1
 	li   %r4, 1
 	b ack
-	blr
