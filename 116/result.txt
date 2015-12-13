@@ -1,0 +1,12 @@
+コマンド: gcc main.c mul128.s
+仕様:
+                    a[1]    a[0]
+                *)  b[1]    b[0]
+    ----------------------------
+    c[3]    c[2]    c[1]    c[0]
+実行結果:
+                                  ffffffffffffffff ffffffffffffffff
+                               *) ffffffffffffffff ffffffffffffffff
+-------------------------------------------------------------------
+ffffffffffffffff fffffffffffffffe 0000000000000000 0000000000000001
+
